@@ -24,7 +24,7 @@ let menuOptions = [
     // {text: 'Stars',         link: 'stars.html',},
     // {text: 'Translate',     link: 'translate.html',},
     // {text: 'Volcanoes',     link: 'Volcanoes.html',},
-    {text: 'Weather',       link: 'weather.html',},
+    {text: 'Weather',       link: 'index.html',},
     // {text: 'Words',         link: 'words.html',},
     // {text: 'World Art',     link: 'worldArt.html',},
 ];
