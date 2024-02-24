@@ -35,7 +35,7 @@ function getWeather() {
                     <p>Forecast: ${day.weather[0].description} <img src='http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png' alt="" height="70%"></p>
                     <p>Wind at ${day.wind.speed.toFixed(0)} mph out of the ${windDirection(day.wind.deg, false)}</p>
                     <p>Sunrise: ${niceTime(weather.city.sunrise, 0)} / Sunset: ${niceTime(weather.city.sunset, 0)}</p>
-                    <p>Temp: ${day.main.temp.toFixed(0)}˚F</p>
+                    <p>Temp: ${day.main.temp.toFixed(0)}˚ F</p>
                 </div>`;
             }
             //  and finally take the finished URL and stuff it into the web page
