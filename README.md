@@ -1,2 +1,3 @@
-# job-search-app
- Job search App
+# Weather-app
+ Weather App
+ Salt Lake City default city
