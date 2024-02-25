@@ -49,14 +49,14 @@ export function windDirection(degrees, long) {
 
 //  strip out just the MM/DD/YYY from the date
 //  convert from UNIX date time and take the time zone offset into consideration
-export function niceDate(date, offset) {
+export function myDate(date, offset) {
     let day = new Date((date + offset) * 1000 );
     day = day.toLocaleString();
     return day.substring(0, day.indexOf(','));
 }
 
 //  Strip out just the HH:MM:SS AM/PM from the date
-export function niceTime(dateTime, offset) {
+export function myTime(dateTime, offset) {
     let day = new Date(dateTime * 1000 + offset).toLocaleString();
     let hour = day.indexOf(' ') + 1;
     let time = day.substring(hour);

@@ -1,4 +1,4 @@
-import {niceDate, niceTime, windDirection} from './utils.js';
+import {myDate, myTime, windDirection} from './utils.js';
 
 document.getElementById('getWeather').addEventListener('click', getWeather);
 
@@ -31,10 +31,10 @@ function getWeather() {
                 //  this is a GREAT opportunity to Reactify this code. But for now I will keep it simple
                 innerHTML +=`
                 <div class="grid-item w3-theme-${(color%2)>0 ? 'l2':'d2'}">
-                    <h4>Date: ${niceDate(day.dt, 0)} ${niceTime(day.dt, 0)}</h4>
+                    <h4>Date: ${myDate(day.dt, 0)} ${myTime(day.dt, 0)}</h4>
                     <p>Forecast: ${day.weather[0].description} <img src='http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png' alt="" height="70%"></p>
                     <p>Wind at ${day.wind.speed.toFixed(0)} mph out of the ${windDirection(day.wind.deg, false)}</p>
-                    <p>Sunrise: ${niceTime(weather.city.sunrise, 0)} / Sunset: ${niceTime(weather.city.sunset, 0)}</p>
+                    <p>Sunrise: ${myTime(weather.city.sunrise, 0)} / Sunset: ${myTime(weather.city.sunset, 0)}</p>
                     <p>Temp: ${day.main.temp.toFixed(0)}˚ F</p>
                 </div>`;
             }

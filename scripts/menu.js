@@ -1,32 +1,8 @@
 //  dynamically create the whole menu bar including the theme drop down
 
 let menuOptions = [
-    {text: 'Home',          link: 'index.html',},
-    // {text: 'Baseball',      link: 'baseball.html',},
-    // {text: 'Basketball',    link: 'basketball.html',},
-    // {text: 'Books',         link: 'books.html',},
-    // {text: 'Church Stats',  link: 'churchStats.html',},
-    // {text: 'COVID',         link: 'covid19.html',},
-    // {text: 'Crypto',        link: 'crypto.html',},
-    // {text: 'Crypto Currency', link: 'allCoins.html',},
-    // {text: 'Dictionary',    link: 'dictionary.html',},
-    // // {text: 'Disney',        link: 'disney.html',},
-    // {text: 'Earthquakes',   link: 'Earthquakes.html',},
-    // {text: 'Finance',       link: 'finance.html',},
-    // {text: 'Lyrics',        link: 'Lyrics.html',},
-    // {text: 'Lambda',        link: 'lambdaQuotes.html',},
-    // {text: 'NASA News',     link: 'NASANews.html',},
-    // {text: 'National Parks',link: 'nationalParks.html',},
-    // {text: 'News',          link: 'news.html',},
-    // {text: 'OG Bit Coins',  link: 'orig-allCoins.html',},
-    // {text: 'Products',      link: 'productSearch.html',},
-    // {text: 'Shopping',      link: 'shopping.html',},
-    // {text: 'Stars',         link: 'stars.html',},
-    // {text: 'Translate',     link: 'translate.html',},
-    // {text: 'Volcanoes',     link: 'Volcanoes.html',},
+    {text: 'Reset',          link: 'index.html',},
     {text: 'Weather',       link: 'index.html',},
-    // {text: 'Words',         link: 'words.html',},
-    // {text: 'World Art',     link: 'worldArt.html',},
 ];
 
 let menu = document.getElementById('menu');
